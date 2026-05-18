@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Feedback</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<nav>
+
+<h2>Campus Voice</h2>
+
+<div>
+
+<a href="dashboard.html">Home</a>
+
+<a href="feedback.html">Feedback</a>
+
+<a href="about.html">About</a>
+
+<a href="contact.html">Contact</a>
+
+</div>
+
+</nav>
+
+<div class="container">
+
+<div class="card">
+
+<h1>Submit Feedback</h1>
+
+<input type="text" placeholder="Student Name">
+
+<select>
+
+<option>CSE</option>
+<option>ISE</option>
+<option>ECE</option>
+<option>MECH</option>
+
+</select>
+
+<textarea placeholder="Enter Feedback"></textarea>
+
+<label>Rate Experience</label>
+
+<input type="range" min="1" max="5">
+
+<button onclick="submitFeedback()">
+Submit
+</button>
+
+<p id="msg"></p>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
